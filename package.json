@@ -2,7 +2,9 @@
   "name": "pocketbook",
   "version": "0.1.0",
   "description": "Get information from pocketbook, unoffocial node.js API client for http://getpocketbook.com",
-  "license": "MIT",
+  "license": {
+    "type": "MIT"
+  },
   "badges": {
     "travis": true,
     "npm": true,
@@ -38,5 +40,11 @@
   "scripts": {
     "test": "out/ltest/pocketbook-test.js"
   },
-  "main": "out/lib/pocketbook.js"
+  "main": "out/lib/pocketbook.js",
+  "maintainers": [
+    ""
+  ],
+  "contributors": [
+    "balupton (https://github.com/balupton)"
+  ]
 }
